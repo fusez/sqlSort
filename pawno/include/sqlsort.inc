@@ -73,7 +73,7 @@ sqlSort(array[], bool:order = sqlSort_Ascending, array_size = sizeof array)
 
 	do
 	{
-		db_get_field(result, 0, result_string, 20);
+		db_get_field(result, 0, result_string, 11);
 		array[array_index ++] = strval(result_string);
 	}
 	while
